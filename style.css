@@ -28,3 +28,14 @@ li {
     grid-row: 3 / 4;
 }
 
+.sidebar-set1 ul,
+.sidebar-set2 ul {
+    display: grid;
+    gap: 15px;
+}
+.sidebar-set1 ul {
+    grid-template-rows: repeat(5, 1fr);
+}
+.sidebar-set2 ul {
+    grid-template-rows: repeat(3, 1fr);
+}
