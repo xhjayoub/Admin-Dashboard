@@ -94,3 +94,14 @@ li {
   width: 2rem;
   height: 2rem;
 }
+
+.sidebar-set1 li,
+.sidebar-set2 li {
+  display: grid;
+  grid-template-columns: 2rem 1fr;
+  gap: 15px;
+}
+li p {
+  display: flex;
+  align-items: center;
+}
