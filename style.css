@@ -69,6 +69,7 @@ li {
 }
 .sidebar-title {
     grid-row: 1 / 2;
+    padding-left: 40px;
 }
 .sidebar-set1 {
     grid-row: 2 / 3;
@@ -96,12 +97,18 @@ li {
 }
 
 .sidebar-set1 li,
-.sidebar-set2 li {
+.sidebar-set2 li,
+.sidebar-title div {
   display: grid;
   grid-template-columns: 2rem 1fr;
   gap: 15px;
 }
-li p {
+li p ,
+.sidebar-title h1 {
   display: flex;
   align-items: center;
+}
+.sidebar-title img {
+  width: 5rem;
+  height: 5rem;
 }
