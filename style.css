@@ -88,3 +88,9 @@ li {
 .sidebar-set2 ul {
     grid-template-rows: repeat(3, 1fr);
 }
+
+.sidebar-set1 img,
+.sidebar-set2 img {
+  width: 2rem;
+  height: 2rem;
+}
