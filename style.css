@@ -46,6 +46,12 @@
     isolation: isolate;
   }
 
+/* CSS variables */
+:root {
+  --primary-color: #22d3ee;
+  --secondary-color: #f0f9ff;
+  --tertiary-color: #fde047;
+}
 
 * {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
