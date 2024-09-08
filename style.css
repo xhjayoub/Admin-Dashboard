@@ -73,6 +73,9 @@ li {
     display: grid;
     grid-template-rows: 100px 300px 200px;
     gap: 20px;
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    font-weight: bold;
 }
 .sidebar-title {
     grid-row: 1 / 2;
