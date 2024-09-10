@@ -121,3 +121,7 @@ li p ,
   width: 5rem;
   height: 5rem;
 }
+.header {
+  display: grid;
+  grid-template-rows: 40% 60%;
+}
