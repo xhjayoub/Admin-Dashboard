@@ -65,7 +65,7 @@ li {
 .container {
     display: grid;
     grid-template-columns: 1fr 4fr;
-    grid-template-rows: 1fr 4fr;
+    grid-template-rows: 20vh 80vh;
 }
 .sidebar {
     grid-column: 1 / 2;
