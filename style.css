@@ -144,6 +144,14 @@ li p ,
 }
 .profile {
   grid-column: 3;
+  display: grid;
+  grid-template-columns: 10% 20% 30%;
+  place-items: center;
+}
+.pfp {
+  width: 3rem;
+  height: auto;
+  border-radius: 4rem;
 }
 .main-profile {
   grid-column: 1;
