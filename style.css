@@ -248,3 +248,8 @@ li p ,
   grid-row: 3 / 5;
   
 }
+.announcements,
+.trending {
+  display: grid;
+  gap: 20px;
+}
