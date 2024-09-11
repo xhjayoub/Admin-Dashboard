@@ -199,7 +199,15 @@ li p ,
   display: grid;
   grid-template-columns: 3fr 1fr;
   grid-template-rows: repeat(2, 1fr);
+  padding-left: 40px;
+  padding-top: 20px;
 }
 .project-cards {
   grid-row: 1 / -1;
+}
+.card-container {
+  grid-row: 1 / -1;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  height: 100%;
 }
