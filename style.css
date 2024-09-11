@@ -201,6 +201,7 @@ li p ,
   grid-template-rows: repeat(2, 1fr);
   padding-left: 40px;
   padding-top: 20px;
+  gap: 20px;
 }
 .project-cards {
   grid-row: 1 / -1;
@@ -209,5 +210,16 @@ li p ,
   grid-row: 1 / -1;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
+  height: 80%;
+}
+.card {
+  display: grid;
   height: 100%;
+  padding: 10px;
+}
+.card-actions {
+  display: grid;
+  grid-template-columns: repeat(3, 30px);
+  gap: 15px;
+  justify-content: end;
 }
