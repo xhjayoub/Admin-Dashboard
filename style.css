@@ -222,11 +222,21 @@ li p ,
 .card {
   display: grid;
   height: 100%;
-  padding: 10px;
+  padding-left: 10px;
+  background-color: var(--tertiary-color);
+  border-radius: 10px;
 }
 .card-actions {
   display: grid;
   grid-template-columns: repeat(3, 30px);
   gap: 15px;
   justify-content: end;
+}
+.card-text,
+.card-actions {
+  background-color: var(--secondary-color);
+}
+.card-text {
+  padding-left: 10px;
+  padding-top: 20px;
 }
