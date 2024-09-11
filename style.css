@@ -205,12 +205,19 @@ li p ,
 }
 .project-cards {
   grid-row: 1 / -1;
+  display: grid;
+  grid-template-rows: 5% 90%;
+  gap: 20px;
+}
+.project-cards-title {
+  grid-row: 1;
 }
 .card-container {
-  grid-row: 1 / -1;
+  grid-row: 2;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   height: 80%;
+  gap: 20px;
 }
 .card {
   display: grid;
